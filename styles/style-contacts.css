@@ -1,0 +1,106 @@
+/* ------------------------------------ */
+/*               HEADER                 */
+/* ------------------------------------ */
+
+header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../images/contacts.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/contacts.jpg);
+    background-position: center;
+}
+
+
+.main-nav li:first-child a:link,
+.main-nav li:first-child a:visited {
+    border-bottom: 3px solid transparent;
+}
+
+.main-nav li:first-child a:hover,
+.main-nav li:first-child a:active {
+    border-bottom: 3px solid #ff9900;
+}
+
+.main-nav li:nth-child(6) a:link,
+.main-nav li:nth-child(6) a:visited {
+    border-bottom: 3px solid #ff9900;
+}
+
+/* ------------------------------------ */
+/*               CONTACTS               */
+/* ------------------------------------ */
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    margin-bottom: 20px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+* {
+    outline: none;
+}
+
+.contacts {
+    display: flex;
+}
+
+.contact-label {
+    list-style: none;
+    text-align: right;
+}
+
+.contact-value {
+    list-style: none;
+}
+
+.contact-value li a,
+.contact-value li {
+    color: #666;
+    text-decoration: none;
+}
+
+.contact-value li a:hover {
+    color: #111;
+
+}
+
+.contact-label li,
+.contact-value li {
+    margin: 0 30px 10px 0;
+}
+
+.clearfix {
+    margin-top: 100px;
+}
+/* ------------------------------------ */
+/*                FOOTER                */
+/* ------------------------------------ */
+
+.footer-nav li:first-child a:link,
+.footer-nav li:first-child a:visited {
+    color: #888;
+    border-bottom: 0;
+}
+
+.footer-nav li:first-child a:active,
+.footer-nav li:first-child a:hover {
+    color: #ddd;
+}
+
+.footer-nav li:nth-child(6) a:link,
+.footer-nav li:nth-child(6) a:visited {
+    color: #ddd;
+    border-bottom: 1px solid #ddd;
+}
