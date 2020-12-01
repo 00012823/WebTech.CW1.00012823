@@ -1,0 +1,73 @@
+@media only screen and (max-width: 1200px) {
+    html, 
+    body {
+        font-size: 17px;
+    }
+    
+    nav {
+        margin: 0 20px;
+    }
+
+    .section-advantages .row,
+    .section-testimonials .row {
+        margin: 0 50px;
+    }
+
+    .row {
+        padding: 0 50px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .main-nav {
+        display: none;
+    }
+
+   html, 
+   body {
+       font-size: 15px;
+   }
+
+   h1 {
+       font-size: 150%;
+   }
+
+   .hero-text-box {
+       padding: 250px 50px;
+   }
+
+   .section-types {
+       grid-template-columns: 100%;
+   }
+
+   .box-photo {
+       width: 100%;
+       text-align: center;
+   }
+   
+   .box-details {
+       width: 100%;
+   }
+
+   .box-photo img {
+       width: 90%;
+       border-radius: 20px;
+       margin: 40px 0;
+   }
+
+   .residences-box {
+       flex-direction: column;
+   }
+
+   .choose {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    input#tashkent-city+label {
+        grid-column: 1 / 2;
+    }
+    
+    input#karakalpakstan+label {
+        grid-column: 2 / -1;
+    }
+}
