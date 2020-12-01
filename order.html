@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>BinoCorp | Home</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,300italic" type="text/css">
+    <link rel="stylesheet" href="styles/style-main.css" type="text/css">
+    <link rel="stylesheet" href="styles/style-order.css" type="text/css">
+    <link rel="stylesheet" href="styles/queries.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="row">
+                <a href="index.html">
+                    <img src="images/logo-white.png" alt="BinoCorp Logo" class="logo">
+                </a>
+                <ul class="main-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="residences.html">Residences</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="media.html">Media</a></li>
+                    <li><a href="#">Order</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero-text-box">
+            <h1>Order a residence</h1>
+        </div>
+    </header>
+    <section class="section-about">
+        <div class="row">
+            <h2>Send a request to book</h2>
+            <p>Choose the residence type:</p>
+            <div class="choose">
+                <input type="radio" name="type" id="minimalist" value="Minimalistic">
+                <label for="minimalist">
+                    <svg class="type-icon">
+                        <use xlink:href="images/sprite.svg#icon-minimalist"></use>
+                    </svg>
+                    Minimalistic
+                </label>
+                <input type="radio" name="type" id="conservative" value="Conservative">
+                <label for="conservative">
+                    <svg class="type-icon">
+                        <use xlink:href="images/sprite.svg#icon-conservative"></use>
+                    </svg>
+                    Conservative
+                </label>
+                <input type="radio" name="type" id="aesthetic" value="Aesthetic">
+                <label for="aesthetic">
+                    <svg class="type-icon">
+                        <use xlink:href="images/sprite.svg#icon-aesthetic"></use>
+                    </svg>
+                    Aesthetic
+                </label>
+                <input type="radio" name="type" id="royal" value="Royal">
+                <label for="royal">
+                    <svg class="type-icon">
+                        <use xlink:href="images/sprite.svg#icon-royal"></use>
+                    </svg>
+                    Royal
+                </label>
+            </div>
+
+            <p>Choose the meal type:</p>
+            <div class="choose">
+                <input type="radio" name="meal" id="normal" value="Normal">
+                <label for="normal">Normal</label>
+
+                <input type="radio" name="meal" id="vegetarian" value="Vegetarian">
+                <label for="vegetarian">Vegetarian</label>
+
+                <input type="radio" name="meal" id="diet" value="Diet">
+                <label for="diet">Diet</label>
+
+                <input type="radio" name="meal" id="halal" value="Halal">
+                <label for="halal">Halal</label>
+            </div>
+
+            <p>Choose the location:</p>
+            <div class="choose">
+                <input type="radio" name="location" id="andijan" value="Andijan">
+                <label for="andijan">Andijan</label>
+
+                <input type="radio" name="location" id="bukhara" value="Bukhara">
+                <label for="bukhara">Bukhara</label>
+
+                <input type="radio" name="location" id="fergana" value="Fergana">
+                <label for="fergana">Fergana</label>
+
+                <input type="radio" name="location" id="jizzakh" value="Jizzakh">
+                <label for="jizzakh">Jizzakh</label>
+
+                <input type="radio" name="location" id="khorezm" value="Khorezm">
+                <label for="khorezm">Khorezm</label>
+
+                <input type="radio" name="location" id="namangan" value="Namangan">
+                <label for="namangan">Namangan</label>
+
+                <input type="radio" name="location" id="navoi" value="Navoi">
+                <label for="navoi">Navoi</label>
+
+                <input type="radio" name="location" id="kashkadarya" value="Kashkadarya">
+                <label for="kashkadarya">Kashkadarya</label>
+
+                <input type="radio" name="location" id="samarkand" value="Samarkand">
+                <label for="samarkand">Samarkand</label>
+
+                <input type="radio" name="location" id="syrdarya" value="Syrdarya">
+                <label for="syrdarya">Syrdarya</label>
+
+                <input type="radio" name="location" id="surkhondaryo" value="Surkhondaryo">
+                <label for="surkhondaryo">Surkhondaryo</label>
+
+                <input type="radio" name="location" id="tashkent-region" value="Tashkent region">
+                <label for="tashkent-region">Tashkent region</label>
+
+                <input type="radio" name="location" id="tashkent-city" value="Tashkent city">
+                <label for="tashkent-city">Tashkent city</label>
+
+                <input type="radio" name="location" id="karakalpakstan" value="Karakalpakstan">
+                <label for="karakalpakstan">Karakalpakstan</label>
+            </div>
+
+            <p>Choose the one that fits your desire:</p>
+            <div class="choose">
+                <input type="radio" name="desire" id="sun" value="Sun">
+                <label for="sun">Sun</label>
+
+                <input type="radio" name="desire" id="water" value="Water">
+                <label for="water">Water</label>
+
+                <input type="radio" name="desire" id="woods" value="Woods">
+                <label for="woods">Woods</label>
+
+                <input type="radio" name="desire" id="mountains" value="Mountains">
+                <label for="mountains">Mountains</label>
+            </div>
+
+            <a href="#" class="btn btn-full" id="submit-btn">Submit</a>
+        </div>
+        <h2>Your orders</h2>
+        <div class="row">
+            <div class="table labels">
+                <span>№</span>
+                <span>Residence type</span>
+                <span>Meal</span>
+                <span>Location</span>
+                <span>Desire</span>
+                <span>Status</span>
+            </div>
+        </div>
+        <div class="row" id="orders">
+
+        </div>
+    </section>
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="residences.html">Residences</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="media.html">Media</a></li>
+                    <li><a href="#">Order</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="col span-1-of-2">
+                <ul class="social-links">
+                    <li><a href="https://www.facebook.com/" target="_blank">
+                            <svg class="social-icon">
+                                <use xlink:href="images/sprite.svg#icon-facebook"></use>
+                            </svg>
+                        </a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank">
+                            <svg class="social-icon">
+                                <use xlink:href="images/sprite.svg#icon-instagram"></use>
+                            </svg>
+                        </a></li>
+                    <li><a href="https://t.me/" target="_blank">
+                            <svg class="social-icon">
+                                <use xlink:href="images/sprite.svg#icon-telegram"></use>
+                            </svg>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <p>
+                Copyright &copy; 2020 by BinoCorp. All rights reserved.
+            </p>
+            <p class="contact-webmaster">
+                This website was created to fulfill Web Technology module’s requirements and does not
+                represent an actual company or service
+            </p>
+        </div>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
