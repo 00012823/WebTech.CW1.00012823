@@ -1,0 +1,81 @@
+/* ------------------------------------ */
+/*               HEADER                 */
+/* ------------------------------------ */
+
+header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../images/residences.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/residences.jpg);
+    background-position: center;
+}
+
+
+.main-nav li:first-child a:link,
+.main-nav li:first-child a:visited {
+    border-bottom: 3px solid transparent;
+}
+
+.main-nav li:first-child a:hover,
+.main-nav li:first-child a:active {
+    border-bottom: 3px solid #ff9900;
+}
+
+.main-nav li:nth-child(2) a:link,
+.main-nav li:nth-child(2) a:visited {
+    border-bottom: 3px solid #ff9900;
+}
+
+/* ------------------------------------ */
+/*               ABOUT US               */
+/* ------------------------------------ */
+
+.residences-box {
+    display: flex;
+    align-items: center;
+    margin: 40px auto;
+}
+
+.box-photo {
+    width: 30%;
+}
+
+.box-photo img {
+    width: 85%;
+    border-radius: 10px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.5s ease;
+}
+
+.box-photo img:hover {
+    transform: scale(1.05);
+    box-shadow: 1px 10px 35px rgba(0, 0, 0, 0.4);
+    border-radius: 100px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.box-details {
+    width: 70%;
+}
+
+/* ------------------------------------ */
+/*                FOOTER                */
+/* ------------------------------------ */
+
+.footer-nav li:first-child a:link,
+.footer-nav li:first-child a:visited {
+    color: #888;
+    border-bottom: 0;
+}
+
+.footer-nav li:first-child a:active,
+.footer-nav li:first-child a:hover {
+    color: #ddd;
+}
+
+.footer-nav li:nth-child(2) a:link,
+.footer-nav li:nth-child(2) a:visited {
+    color: #ddd;
+    border-bottom: 1px solid #ddd;
+}
